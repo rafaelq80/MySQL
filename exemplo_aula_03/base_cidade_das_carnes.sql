@@ -42,3 +42,5 @@ insert tb_produtos (nome, preco, qtProduto, categoria_id) values ("mocoto",20.00
 insert tb_produtos (nome, preco, qtProduto, categoria_id) values ("chuleta",20.00,30,1);
 insert tb_produtos (nome, preco, qtProduto) values ("acendedor de churrasqueira",20.00,30);
 insert tb_produtos (nome, preco, qtProduto) values ("soprador de churrasqueira",35.00,30);
+
+select * from tb_produtos;
