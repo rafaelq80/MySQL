@@ -6,3 +6,5 @@ Exemplo apresentado na live code (db_quitanda) com algumas consultas adicionais 
 
 ## exemplo_aula_03
 Exemplo + DER para a live code da aula 03
+Consultas realizadas na Live Code
+Resolução do exercício 01 da lista
