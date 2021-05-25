@@ -8,3 +8,7 @@ Exemplo apresentado na live code (db_quitanda) com algumas consultas adicionais 
 Exemplo + DER para a live code da aula 03 <br />
 Consultas realizadas na Live Code (db_cidade_das_carnes) com algunas consultas adicionais (Bônus)<br />
 Resolução do exercício 01 da lista 03
+
+## outros_exemplos
+Exemplo - Utilização do Autorelacionamento <br />
+Exemplo - Trabalhando com Data e Hora
