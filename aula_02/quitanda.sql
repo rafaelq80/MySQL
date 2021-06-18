@@ -64,7 +64,7 @@ delete from tb_produtos where id = 2;
 ALTER TABLE tb_produtos ADD PRIMARY KEY (id);
 
 -- Modifica o nome de um Atributo da Tabela
-alter table tb_produtos change nome nomeProduto integer;
+alter table tb_produtos change nome nomeproduto integer;
 
 -- Apaga todos os dados da tabela (Não é possível desfazer)
 delete from tb_produtos;
