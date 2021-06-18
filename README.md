@@ -1,6 +1,6 @@
 # MySQL
 Conteúdos das aulas de MySQL - Generation Brazil
-
+<!--
 ## exemplo_aula_02
 Exemplo apresentado na live code (db_quitanda) com algumas consultas adicionais (Bônus)
 
@@ -12,3 +12,4 @@ Resolução do exercício 01 da lista 03
 ## outros_exemplos
 Exemplo - Utilização do Autorelacionamento <br />
 Exemplo - Trabalhando com Data e Hora
+-->
