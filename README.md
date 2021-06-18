@@ -2,7 +2,7 @@
 Repositório com os conteúdos das aulas sobre MySQL - Generation Brazil
 
 ## aula_02
-Exemplo apresentado na live code (db_quitanda) com algumas consultas adicionais (Bônus)
+Exemplo apresentado na live code (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_02/quitanda.sql" target="_blank">db_quitanda</a>) com algumas consultas adicionais (Bônus)
 
 <!--
 
@@ -18,9 +18,9 @@ Exemplo - Trabalhando com Data e Hora
 
 -->
 
-Referências sobre MySQL
+# Referências sobre MySQL
 
-[W3 Schools](https://www.w3schools.com/sql/default.Asp)
+<a href="https://www.w3schools.com/sql/default.Asp" target="_blank">W3 Schools - SQL Tutorial</a>
 
-[Documentação do MySQL](https://dev.mysql.com/doc/refman/8.0/en/)
+<a href="https://dev.mysql.com/doc/refman/8.0/en/" target="_blank">Documentação Oficial do MySQL</a>
 
