@@ -42,8 +42,9 @@ select * from tb_produtos where nome = "maçã";
 -- Adiciona um novo Atributo na Tabela
 alter table tb_produtos add descricao varchar(255); 
 
--- Atualiza o tipo de um Atributo da Tabela
-alter table tb_produtos modify preco decimal(5,2);
+-- Atualiza o tipo de um Atributo da Tabela 
+-- decimal (6 digitos, sendo os ultimos 2 as casas decimais - 4200.00)
+alter table tb_produtos modify preco decimal(6,2);
 
 -- Remove um atributo da Tabela
 alter table tb_produtos drop descricao; 

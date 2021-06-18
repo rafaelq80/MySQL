@@ -2,7 +2,9 @@
 Repositório com os conteúdos das aulas sobre MySQL - Generation Brazil
 
 ## aula_02
-Exemplo apresentado na live code (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_02/quitanda.sql" target="_blank">db_quitanda</a>) com algumas consultas adicionais (Bônus)
+Exemplo apresentado na Live Code (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_02/quitanda.sql" target="_blank">quitanda.sql</a>) com algumas consultas adicionais (Bônus)
+
+Exemplo apresentado na Live Code (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_02/data_hora.sql" target="_blank">data_hora.sql</a>) sobre como trabalhar com data e hora
 
 <!--
 
@@ -13,7 +15,7 @@ Consultas realizadas na Live Code (db_cidade_das_carnes) com algunas consultas a
 Resolução do exercício 01 da lista 03
 
 ## outros_exemplos
-Exemplo - Utilização do Autorelacionamento <br />
+Exemplo - Utilização do Auto relacionamento <br />
 Exemplo - Trabalhando com Data e Hora
 
 -->
