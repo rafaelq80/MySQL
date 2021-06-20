@@ -6,12 +6,15 @@ Exemplo apresentado na Live Code (<a href="https://github.com/rafaelq80/MySQL/bl
 
 Exemplo apresentado na Live Code (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_02/data_hora.sql" target="_blank">data_hora.sql</a>) sobre como trabalhar com data e hora
 
-<!--
+Solução de referência dos exercícios entregues na plataforma (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_02/lista_exercicios/" target="_blank">lista_exercicios</a>) sobre criação de Banco de Dados e  Consultas.
 
-## exemplo_aula_03
 
-Exemplo + DER para a live code da aula 03 <br />
-Consultas realizadas na Live Code (db_cidade_das_carnes) com algunas consultas adicionais (Bônus)<br />
+
+## aula_03
+
+Exemplo + DER para a Live Code da aula 03 (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_03/" target="_blank">Live Code</a>) - Relacionamentos, Consultas e Join.<br />
+
+<!--Consultas realizadas na Live Code (db_cidade_das_carnes) com algunas consultas adicionais (Bônus)<br />
 Resolução do exercício 01 da lista 03
 
 ## outros_exemplos
@@ -19,6 +22,10 @@ Exemplo - Utilização do Auto relacionamento <br />
 Exemplo - Trabalhando com Data e Hora
 
 -->
+
+## wb_dark_theme
+
+Arquivo de configuração para deixar o Editor (Apenas o Editor) do Workbench com o tema escuro  (<a href="https://github.com/rafaelq80/MySQL/blob/main/wb_dark_theme/" target="_blank">Dark Theme</a>) .<br />
 
 # Referências sobre MySQL
 
