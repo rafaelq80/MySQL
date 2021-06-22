@@ -18,7 +18,8 @@ Consultas realizadas na Live Code (<a href="https://github.com/rafaelq80/MySQL/b
 
 Resolução do exercício 01 da lista 03 (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_03/game_online.sql" target="_blank">Loja de Games</a>)
 
-## <!--outros_exemplos
+<!--
+## outros_exemplos
 Exemplo - Utilização do Auto relacionamento <br />
 Exemplo - Trabalhando com Data e Hora
 
