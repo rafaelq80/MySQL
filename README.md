@@ -4,8 +4,6 @@ Repositório com os conteúdos das aulas sobre MySQL - Generation Brazil
 ## aula_02
 Exemplo apresentado na Live Code (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_02/quitanda.sql" target="_blank">quitanda.sql</a>) com algumas consultas adicionais (Bônus)
 
-Exemplo apresentado na Live Code (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_02/data_hora.sql" target="_blank">data_hora.sql</a>) sobre como trabalhar com data e hora
-
 Solução de referência dos exercícios entregues na plataforma (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_02/lista_exercicios/" target="_blank">lista_exercicios</a>) sobre criação de Banco de Dados e  Consultas.
 
 
@@ -18,12 +16,15 @@ Consultas realizadas na Live Code (<a href="https://github.com/rafaelq80/MySQL/b
 
 Resolução do exercício 01 da lista 03 (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_03/game_online.sql" target="_blank">Loja de Games</a>)
 
-<!--
-## outros_exemplos
-Exemplo - Utilização do Auto relacionamento <br />
-Exemplo - Trabalhando com Data e Hora
 
--->
+
+## outros_exemplos
+
+Exemplo apresentado na Live Code (<a href="https://github.com/rafaelq80/MySQL/blob/main/outros/data_hora.sql" target="_blank">data_hora.sql</a>) sobre como trabalhar com data e hora
+
+Exemplo - Alunos e Notas (<a href="https://github.com/rafaelq80/MySQL/blob/main/outros/exemplo_escola_notas.sql" target="_blank">exemplo_escola_notas.sql</a>) sobre cálculo da média e arredondamento
+
+
 
 ## wb_dark_theme
 

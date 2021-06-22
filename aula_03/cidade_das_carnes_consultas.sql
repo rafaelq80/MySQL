@@ -76,10 +76,10 @@ select min(preco) as preco_minimo from tb_produtos;
 
 /* Mostrar o Maior Preço e incluir o Nome do Produto*/
 
--- Solução 01
+-- Solução 01 (Contribuição da participante Délis)
 select * from tb_produtos where preco = (select max(preco) from tb_produtos);
 
--- Solução 02 - Limit 1 define que será exibido apenas o 1º resultado da consulta
+-- Solução 02 - Limit 1 define que será exibido apenas o 1º resultado da consulta (Contribuição do participante Lucas)
 SELECT nome as Nome_Produto , MAX(preco) as Maior_Valor FROM tb_produtos GROUP BY nome ORDER BY preco DESC LIMIT 1;
 
 
