@@ -7,7 +7,7 @@ Configurando o Tema Escuro no Editor do Workbench
 ## Instalação e Configuração
 
 1. Antes de começar, verifique se o Workbench está fechado
-2. Faça o download do arquivo <a href="https://github.com/rafaelq80/MySQL/blob/main/wb_dark_theme/code_editor.zip" target="_blank">code_editor.zipl</a>, neste repositório
+2. Faça o download do arquivo <a href="https://github.com/rafaelq80/MySQL/blob/main/wb_dark_theme/code_editor.zip" target="_blank">code_editor.zip</a>, neste repositório
 3. Descompacte o arquivo no seu computador
 4. No Windows Explorer da sua máquina, localize o arquivo **code_editor.xml**, na pasta: *C:\Program Files\MySQL\MySQL Workbench 8.0\data*\
 5. Na pasta acima, renomeie o arquivo **code_editor.xml** para **old_code_editor.xml**
