@@ -3,7 +3,7 @@ create database db_cidade_das_carnes;
 use db_cidade_das_carnes;
 
 create table tb_categoria(
-id bigint(5) auto_increment,
+id bigint auto_increment,
 descricao varchar(255) not null,
 ativo boolean not null,
 primary key (id)
@@ -20,7 +20,7 @@ insert into tb_categoria (descricao, ativo) values ("outros",true);
 select * from tb_categoria;
 
 create table tb_produtos (
-id bigint(5) auto_increment,
+id bigint auto_increment,
 nome varchar (255) not null,
 preco decimal(6,2) not null,
 qtproduto int not null,
