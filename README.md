@@ -27,6 +27,14 @@ Solução de referência dos exercícios entregues na plataforma (<a href="https
 
 
 
+## aula_01
+
+Manual de instalação do MySQL (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_01/Instalacao_mysql.pdf" target="_blank">Clique aqui</a>)
+
+Manual de desinstalação do MySQL (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_01/desinstalacao_mysql.pdf" target="_blank">Clique aqui</a>)
+
+Erro na reinstalação do MySQL (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_01/erro_reinstalacao_mysql.pdf" target="_blank">Clique aqui</a>) 
+
 ## outros_exemplos
 
 Exemplo apresentado na Live Code (<a href="https://github.com/rafaelq80/MySQL/blob/main/outros/data_hora.sql" target="_blank">data_hora.sql</a>) sobre como trabalhar com data e hora

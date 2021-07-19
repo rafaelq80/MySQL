@@ -38,7 +38,7 @@ O DB Designer é uma ferramenta on-line utilizada na Modelagem de Banco de Dados
 
     <div align="center"><img src="https://i.imgur.com/2hX32bc.png" title="source: imgur.com" /></div>
 
-11. Para adicionar os atributos da tabela, clique no link **Adicionar campo**
+11. Para adicionar os atributos da tabela, clique no link **Adicionar campo** e preencha as Constraints (Restrições) do atributo
 
     <div align="center"><img src="https://i.imgur.com/i3vzrx8.png" title="source: imgur.com" /></div>
 
@@ -46,13 +46,13 @@ O DB Designer é uma ferramenta on-line utilizada na Modelagem de Banco de Dados
 
     <div align="center"><img src="https://i.imgur.com/QN6q2p8.png" title="source: imgur.com" /></div>
 
-13. Utilize as cores para diferenciar a Chave Primária da Chave Estrangeira
+13. Utilize as cores para diferenciar a **Chave Primária** da **Chave Estrangeira**
 
 14. Após concluir o Diagrama, salve o projeto através do menu **Esquema -> Salvar**
 
 15. Exporte o Diagrama no formato PDF através do menu **Exportar -> PDF** e faça o download do arquivo
 
-16. Gere o código SQL através do  menu **Exportar -> SQL**
+16. Gere o código SQL através do  menu **Exportar => SQL**
 
 17. Na janela abaixo, clique em **Gerar SQL**
 
