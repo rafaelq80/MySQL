@@ -21,7 +21,7 @@ Resolução do exercício 01 da lista 03 (<a href="https://github.com/rafaelq80/
 
 ## aula_02
 
-Exemplo apresentado na Live Code (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_02/quitanda.sql" target="_blank">quitanda.sql</a>) com algumas consultas adicionais (Bônus)
+Exemplo apresentado na Live Code (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_02/brecho.sql" target="_blank">brecho.sql</a>) com algumas consultas adicionais (Bônus)
 
 Solução de referência dos exercícios entregues na plataforma (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_02/lista_exercicios/" target="_blank">lista_exercicios</a>) sobre criação de Banco de Dados e  Consultas.
 
