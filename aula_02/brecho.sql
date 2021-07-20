@@ -1,7 +1,10 @@
+-- Cria o Banco de dados
 create database db_brecho;
 
+-- Seleciona o Banco de dados para uso
 use db_brecho;
 
+-- Cria a tabela no Banco de dados
 create table tb_produtos(
 id bigint auto_increment,
 nome varchar(255),
