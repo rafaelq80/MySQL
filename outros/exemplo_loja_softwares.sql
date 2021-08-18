@@ -30,10 +30,10 @@ insert into tb_software (titulo, preco, desconto_educacional, categoria_id) valu
 insert into tb_software (titulo, preco, desconto_educacional, categoria_id) values ("Microsoft Visual Studio", 2000.00, 0.05, 4);
 insert into tb_software (titulo, preco, desconto_educacional, categoria_id) values ("Microsoft Power BI", 500.00, 0.06, 5);
 
-select titulo, CONCAT('R$ ',FORMAT(preco, 2,'de_DE')) as preço from tb_software;
+select titulo, CONCAT('R$ ',FORMAT(preco, 2,'pt_BR')) as preço from tb_software;
 
-select titulo, CONCAT(FORMAT(desconto_educacional * 100, 2, 'de_DE'), ' %') as desconto from tb_software;
+select titulo, CONCAT(FORMAT(desconto_educacional * 100, 2, 'pt_BR'), ' %') as desconto from tb_software;
 
-select tb_software.titulo,  CONCAT('R$ ',FORMAT(tb_software.preco, 2,'de_DE')) as preço, 
-CONCAT(FORMAT(tb_software.desconto_educacional * 100, 2, 'de_DE'), ' %') as desconto, 
+select tb_software.titulo,  CONCAT('R$ ',FORMAT(tb_software.preco, 2,'pt_BR')) as preço, 
+CONCAT(FORMAT(tb_software.desconto_educacional * 100, 2, 'pt_BR'), ' %') as desconto, 
 tb_categoria.descricao from tb_software inner join tb_categoria on tb_categoria.id = tb_software.categoria_id;

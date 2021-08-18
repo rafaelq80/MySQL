@@ -8,17 +8,18 @@ use db_quitanda;
 create table tb_produtos(
 id bigint auto_increment,
 nome varchar(255) not null,
+quantidade int,
 preco decimal not null,
 primary key (id)
 );
 
 -- Insere dados na tabela
-insert into tb_produtos(nome, preco)  values ("tomate", 8.00);
-insert into tb_produtos(nome, preco)  values ("maçã", 5.00);
-insert into tb_produtos(nome, preco)  values ("laranja", 10.00);
-insert into tb_produtos(nome, preco)  values ("banana", 12.00);
-insert into tb_produtos(nome, preco)  values ("uva", 30.00);
-insert into tb_produtos(nome, preco)  values ("pêra", 3.00);
+insert into tb_produtos(nome, quantidade, preco)  values ("tomate",100, 8.00);
+insert into tb_produtos(nome, quantidade, preco)  values ("maçã",20, 5.00);
+insert into tb_produtos(nome, quantidade, preco)  values ("laranja",50, 10.00);
+insert into tb_produtos(nome, quantidade, preco)  values ("banana",200, 12.00);
+insert into tb_produtos(nome, quantidade, preco)  values ("uva",1200, 30.00);
+insert into tb_produtos(nome, quantidade, preco)  values ("pêra",500, 3.00);
 
 /* Visualizar os dados*/
 
@@ -27,6 +28,9 @@ select * from tb_produtos;
 
 -- Visualiza somente o nome e o preço
 select nome, preco from tb_produtos;
+
+-- Visualiza somente o nome e o preço formatado para Reais
+select nome, CONCAT('R$ ',FORMAT(preco, 2,'pt_BR')) as preço from tb_produtos;
 
 -- Visualiza o produto cujo id é igual a 1
 select * from tb_produtos where id = 1;

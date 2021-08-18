@@ -7,9 +7,9 @@ use db_brecho;
 -- Cria a tabela no Banco de dados
 create table tb_produtos(
 id bigint auto_increment,
-nome varchar(255),
+nome varchar(255) not null,
 quantidade int,
-preco decimal,
+preco decimal not null,
 primary key (id)
 );
 
@@ -30,7 +30,7 @@ select * from tb_produtos;
 select nome, preco from tb_produtos;
 
 -- Visualiza somente o nome e o preço formatado para Reais
-select nome, CONCAT('R$ ',FORMAT(preco, 2,'de_DE')) as preço from tb_produtos;
+select nome, CONCAT('R$ ',FORMAT(preco, 2,'pt_BR')) as preço from tb_produtos;
 
 -- Visualiza o produto cujo id é igual a 1
 select * from tb_produtos where id = 1;
