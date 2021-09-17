@@ -23,8 +23,6 @@ Resolução do exercício 01 da lista 03 (<a href="https://github.com/rafaelq80/
 
 Exemplo apresentado na Live Code (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_02/brecho.sql" target="_blank">brecho.sql</a>) com algumas consultas adicionais (Bônus)
 
-Solução de referência dos exercícios entregues na plataforma (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_02/lista_exercicios/" target="_blank">lista_exercicios</a>) sobre criação de Banco de Dados e  Consultas.
-
 
 
 ## aula_01
@@ -34,6 +32,8 @@ Manual de instalação do MySQL (<a href="https://github.com/rafaelq80/MySQL/blo
 Manual de desinstalação do MySQL (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_01/desinstalacao_mysql.pdf" target="_blank">Clique aqui</a>)
 
 Erro na reinstalação do MySQL (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_01/erro_reinstalacao_mysql.pdf" target="_blank">Clique aqui</a>) 
+
+
 
 ## outros_exemplos
 
