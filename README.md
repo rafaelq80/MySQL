@@ -13,15 +13,17 @@ Exemplo + DER para a Live Code da aula 04 (<a href="https://github.com/rafaelq80
 
 Exemplo + DER para a Live Code da aula 03 (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_03/" target="_blank">Live Code</a>) - Relacionamentos, Consultas e Join.<br />
 
-Consultas realizadas na Live Code (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_03/cidade_das_carnes_consultas.sql" target="_blank">cidade_das_carnes_consultas</a>) com algumas consultas adicionais (Bônus)<br />
+Consultas realizadas na Live Code (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_03/consultas/cidade_das_carnes_consultas.sql" target="_blank">cidade_das_carnes_consultas</a>) com algumas consultas adicionais (Bônus)<br />
 
-Resolução do exercício 01 da lista 03 (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_03/game_online.sql" target="_blank">Loja de Games</a>)
+Resolução do exercício 01 da lista 03 (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_03/consultas/game_online.sql" target="_blank">Loja de Games</a>)
 
 
 
 ## aula_02
 
 Exemplo apresentado na Live Code (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_02/quitanda.sql" target="_blank">quitanda.sql</a>) com algumas consultas adicionais (Bônus)
+
+Resolução dos exercícios da lista 02 (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_02/lista_exercicios/game_online.sql" target="_blank">Lista de Exercícios</a>)
 
 
 
