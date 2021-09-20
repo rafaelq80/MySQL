@@ -23,7 +23,7 @@ Resolução do exercício 01 da lista 03 (<a href="https://github.com/rafaelq80/
 
 Exemplo apresentado na Live Code (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_02/quitanda.sql" target="_blank">quitanda.sql</a>) com algumas consultas adicionais (Bônus)
 
-Resolução dos exercícios da lista 02 (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_02/lista_exercicios/game_online.sql" target="_blank">Lista de Exercícios</a>)
+Resolução dos exercícios da lista 02 (<a href="https://github.com/rafaelq80/MySQL/tree/main/aula_02/lista_exercicios" target="_blank">Lista de Exercícios</a>)
 
 
 
