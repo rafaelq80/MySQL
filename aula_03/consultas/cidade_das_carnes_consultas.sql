@@ -73,6 +73,8 @@ select max(preco) as preco_maximo from tb_produtos;
 -- Mostrar o Menor Preço
 select min(preco) as preco_minimo from tb_produtos;
 
+-- Mostrar todos os produtos cujo nome possua 3 caracteres
+select * from tb_produtos where length(nome) = 3;
 
 /* Mostrar o Maior Preço e incluir o Nome do Produto*/
 
