@@ -1,49 +1,29 @@
 # MySQL
-Repositório com os conteúdos das aulas sobre MySQL - Generation Brazil
+
 
 <div align="center"><img width="250px" src="https://i.imgur.com/zx4aW9R.png" title="source: imgur.com" /></div>
-
-## aula_04
-
-Exemplo + DER para a Live Code da aula 04 (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_04/" target="_blank">Live Code</a>) - Construção do Diagrama de Entidade e Relacionamentos utilizando o DB Designer.<br />
-
-
-
-## aula_03
-
-Exemplo + DER para a Live Code da aula 03 (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_03/" target="_blank">Live Code</a>) - Relacionamentos, Consultas e Join.<br />
-
-Consultas realizadas na Live Code (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_03/consultas/cidade_das_carnes_consultas.sql" target="_blank">cidade_das_carnes_consultas</a>) com algumas consultas adicionais (Bônus)<br />
-
-Resolução do exercício 01 da lista 03 (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_03/consultas/game_online.sql" target="_blank">Loja de Games</a>)
 
 
 
 ## aula_02
 
-Exemplo apresentado na Live Code (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_02/quitanda.sql" target="_blank">quitanda.sql</a>) com algumas consultas adicionais (Bônus)
-
-Resolução dos exercícios da lista 02 (<a href="https://github.com/rafaelq80/MySQL/tree/main/aula_02/lista_exercicios" target="_blank">Lista de Exercícios</a>)
+Exemplo SQL apresentado na Live Code (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_02/" target="_blank">Clique aqui</a>) + consultas adicionais (Bônus)
 
 
 
-## aula_01
+## aula_03
 
-Manual de instalação do MySQL (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_01/Instalacao_mysql.pdf" target="_blank">Clique aqui</a>)
-
-Manual de desinstalação do MySQL (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_01/desinstalacao_mysql.pdf" target="_blank">Clique aqui</a>)
-
-Erro na reinstalação do MySQL (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_01/erro_reinstalacao_mysql.pdf" target="_blank">Clique aqui</a>) 
+Exemplo SQL + DER para a Live Code (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_03/" target="_blank">Clique aqui</a>) - Relacionamentos, Consultas e Join.
 
 
 
 ## outros_exemplos
 
-Exemplo apresentado na Live Code (<a href="https://github.com/rafaelq80/MySQL/blob/main/outros/data_hora.sql" target="_blank">data_hora.sql</a>) sobre como trabalhar com data e hora
+Exemplo - Data e Hora (<a href="https://github.com/rafaelq80/MySQL/blob/main/outros/data_hora.sql" target="_blank">data_hora.sql</a>) sobre como trabalhar com data e hora
 
-Exemplo - Alunos e Notas (<a href="https://github.com/rafaelq80/MySQL/blob/main/outros/exemplo_escola_notas.sql" target="_blank">exemplo_escola_notas.sql</a>) sobre cálculo da média e arredondamento
+Exemplo - Alunos e Notas com join (<a href="https://github.com/rafaelq80/MySQL/blob/main/outros/exemplo_escola_notas.sql" target="_blank">exemplo_escola_notas.sql</a>) sobre cálculo da média e arredondamento
 
-Exemplo - Loja de Softwares (<a href="https://github.com/rafaelq80/MySQL/blob/main/outros/exemplo_loja_softwares.sql" target="_blank">exemplo_loja_softwares.sql</a>) sobre formatação de moeda e porcentagem
+Exemplo - Loja de Softwares com join (<a href="https://github.com/rafaelq80/MySQL/blob/main/outros/exemplo_loja_softwares.sql" target="_blank">exemplo_loja_softwares.sql</a>) sobre formatação de moeda e porcentagem
 
 
 
@@ -58,3 +38,4 @@ Arquivo de configuração para deixar o Editor (Apenas o Editor) do Workbench co
 <a href="https://dev.mysql.com/doc/refman/8.0/en/" target="_blank">Documentação Oficial do MySQL</a>
 
 <a href="https://www.mysqltutorial.org/" target="_blank">MySQL Tutorial</a>
+
