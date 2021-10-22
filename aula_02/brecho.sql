@@ -61,8 +61,11 @@ alter table tb_produtos change nome nomeproduto varchar(255);
 
 /* Alterações nos Dados da Tabela*/
 
+-- Desabilita o modo safe update
+SET SQL_SAFE_UPDATES = 0;
+
 -- Atualiza o atributo preço na tabela, cujo id seja igual a 6
-update tb_produtos set preco = 29.90 where id = 6;
+update tb_produtos set preco = 29.90 where id = 5;
 
 -- Deleta o registro da tabela, cujo id seja igual a 2
 delete from tb_produtos where id = 5;

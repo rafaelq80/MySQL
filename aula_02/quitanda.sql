@@ -56,6 +56,9 @@ alter table tb_produtos drop descricao;
 
 /* Alterações nos Dados da Tabela*/
 
+-- Desabilita o modo safe update
+SET SQL_SAFE_UPDATES = 0;
+
 -- Atualiza o atributo preço na tabela, cujo id seja igual a 1
 update tb_produtos set preco = 10.00 where id = 1;
 
