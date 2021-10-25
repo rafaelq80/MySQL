@@ -34,6 +34,15 @@ select titulo, CONCAT('R$ ',FORMAT(preco, 2,'pt_BR')) as preço from tb_software
 
 select titulo, CONCAT(FORMAT(desconto_educacional * 100, 2, 'pt_BR'), ' %') as desconto from tb_software;
 
-select tb_software.titulo,  CONCAT('R$ ',FORMAT(tb_software.preco, 2,'pt_BR')) as preço, 
-CONCAT(FORMAT(tb_software.desconto_educacional * 100, 2, 'pt_BR'), ' %') as desconto, 
-tb_categoria.descricao from tb_software inner join tb_categoria on tb_categoria.id = tb_software.categoria_id;
+select tb_software.titulo, tb_categoria.descricao,
+CONCAT('R$ ',FORMAT(tb_software.preco, 2,'pt_BR')) as preço, 
+CONCAT(FORMAT(tb_software.desconto_educacional * 100, 2, 'pt_BR'), ' %') as desconto
+from tb_software inner join tb_categoria on tb_categoria.id = tb_software.categoria_id;
+
+select tb_software.titulo, tb_categoria.descricao, 
+CONCAT('R$ ',FORMAT(tb_software.preco, 2,'pt_BR')) as preço, 
+CONCAT(FORMAT(tb_software.desconto_educacional * 100, 2, 'pt_BR'), ' %') as desconto_educacional, 
+CONCAT('R$ ',FORMAT(tb_software.desconto_educacional * tb_software.preco, 2,'pt_BR')) as valor_desconto,
+CONCAT('R$ ',FORMAT(tb_software.preco - (tb_software.desconto_educacional * tb_software.preco), 2,'pt_BR')) as preço_educacional
+from tb_software inner join tb_categoria on tb_categoria.id = tb_software.categoria_id;
+
