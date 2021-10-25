@@ -22,6 +22,12 @@ select * from tb_produtos where preco > 20.00 OR categoria_id = 1;
 select * from tb_produtos where NOT categoria_id = 1;
 
 
+/* Condicional If */
+
+-- Exibir Verdadeiro ou Falso no atributo BOOLEAN, ao invés de 0 ou 1
+select descricao, if(ativo, "verdadeiro", "falso") as ativo from tb_categoria;
+
+
 /*Operador Like*/
 
 -- Localiza os produtos cujo nome contenha ha
