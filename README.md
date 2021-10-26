@@ -17,6 +17,12 @@ Exemplo SQL + DER para a Live Code (<a href="https://github.com/rafaelq80/MySQL/
 
 
 
+## aula_04
+
+Construção do DER - Live Code (<a href="https://github.com/rafaelq80/MySQL/blob/main/aula_04/" target="_blank">Clique aqui</a>) - Diagrama de Entidade e Relacionamentos.
+
+
+
 ## outros_exemplos
 
 Exemplo - Data e Hora (<a href="https://github.com/rafaelq80/MySQL/blob/main/outros/data_hora.sql" target="_blank">data_hora.sql</a>) sobre como trabalhar com data e hora
