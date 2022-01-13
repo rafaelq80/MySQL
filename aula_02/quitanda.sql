@@ -19,7 +19,7 @@ insert into tb_produtos(nome, quantidade, preco)  values ("maçã",20, 5.00);
 insert into tb_produtos(nome, quantidade, preco)  values ("laranja",50, 10.00);
 insert into tb_produtos(nome, quantidade, preco)  values ("banana",200, 12.00);
 insert into tb_produtos(nome, quantidade, preco)  values ("uva",1200, 30.00);
-insert into tb_produtos(nome, quantidade, preco)  values ("pêra",500, 3.00);
+insert into tb_produtos(nome, quantidade, preco)  values ("pêra",500, 2.90);
 
 /* Visualizar os dados*/
 
