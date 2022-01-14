@@ -84,19 +84,3 @@ VALUES ("Flight Simulator", "O Flight Simulator promete aos jogadores a liberdad
 -- Lista todos os Produtos
 Select * from tb_produtos;
 
-select tb_produtos.nome, tb_categorias.tipo  -- Seleciona os dados
-from tb_produtos inner join tb_categorias -- O tipo de junção (Join)
-on tb_categorias.id = tb_produtos.categoria_id; -- Os atributos fazem o relacionamento ( PK -> FK)
-
-select tb_produtos.nome, tb_usuarios.nome as vendedor
-from tb_produtos inner join tb_usuarios
-on tb_usuarios.id = tb_produtos.usuario_id;
-
--- Inner join com 2 tabelas
-select tb_produtos.nome,
-concat('R$ ', format(tb_produtos.preco, 2, 'pt_BR')) as preço,
-tb_categorias.tipo, tb_usuarios.nome as vendedor
-from tb_produtos
-inner join tb_categorias on tb_categorias.id = tb_produtos.categoria_id
-inner join tb_usuarios on tb_usuarios.id = tb_produtos.usuario_id;
-
