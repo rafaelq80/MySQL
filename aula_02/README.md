@@ -1,4 +1,4 @@
-﻿﻿<h1>Enviando os Scripts SQL para o Github</h1>
+﻿﻿﻿<h1>Enviando os Scripts SQL para o Github</h1>
 
 Este guia irá auxiliar no processo de criação e inicialização de uma pasta como um Repositório Local do Git e associar este Repositório Local ao Repositório Remoto que será criado no Github para o envio dos Scripts SQL. Desta forma, toda vez que você efetuar um *git push* no Repositório Local, todos os Scripts serão encaminhados para o Repositório Remoto no Github.
 
@@ -130,8 +130,6 @@ git status
 3. O resultado dos comandos acima será semelhante a imagem abaixo:
 
 <div><img src="https://i.imgur.com/ImVFxSA.png" title="source: imgur.com" /></div>
-
-<br /><br /><br /><br /><br /><br /><br />
 
 4. Acesse o Repositório Remoto do Github e verifique se ele foi atualizado.
 
