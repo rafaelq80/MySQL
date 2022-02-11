@@ -41,6 +41,9 @@ select * from tb_produtos where preco > 5.00;
 -- Visualiza todos os produtos cujo nome seja maçã
 select * from tb_produtos where nome = "maçã";
 
+-- Visualiza todas as pizzas cujo nome seja Maçã ou o Preco > 5.00
+select * from tb_produtos where nome = "maçã" or preco > 5.00;
+
 /* Alterações na Estrutura da Tabela*/
 
 -- Adiciona um novo Atributo na Tabela
