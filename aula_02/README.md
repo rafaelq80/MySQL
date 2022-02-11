@@ -1,4 +1,4 @@
-﻿<h1>Enviando os Scripts SQL para o Github</h1>
+﻿﻿<h1>Enviando os Scripts SQL para o Github</h1>
 
 Este guia irá auxiliar no processo de criação e inicialização de uma pasta como um Repositório Local do Git e associar este Repositório Local ao Repositório Remoto que será criado no Github para o envio dos Scripts SQL. Desta forma, toda vez que você efetuar um *git push* no Repositório Local, todos os Scripts serão encaminhados para o Repositório Remoto no Github.
 
@@ -14,11 +14,9 @@ Vamos criar o Repositório Remoto no Github:
 
     <div align="center"><img src="https://i.imgur.com/I8fT17R.png" title="source: imgur.com" /></div>
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-
  4. Crie um **Repositório Público**, chamado **bd_mysql** e adicione o arquivo **README**, como mostra a figura abaixo. Em seguida clique no botão **Create Repository**.
 
-<div align="center"><img src="https://i.imgur.com/58vg2QN.png" title="source: imgur.com" width="550px"/></div>
+<div align="center"><img src="https://i.imgur.com/58vg2QN.png" title="source: imgur.com" /></div>
 
 5. Repositório Criado!
 
@@ -92,8 +90,6 @@ git remote -v
 
 Siga as instruções da Live Code.
 
-<br /><br /><br /><br /><br /><br /><br />
-
 <h2>👣 Passo 04 - Salvar o Script SQL</h2>
 
 Para Salvar o Script SQL, siga as instruções abaixo:
@@ -154,5 +150,4 @@ Toda vez que você precisar enviar conteúdos para este repositório, salve todo
  
  git push
 ```
-
 
