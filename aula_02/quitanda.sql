@@ -68,7 +68,7 @@ ALTER TABLE tb_produtos DROP descricao;
 
 /* Alterações nos Dados da Tabela*/ 
 
--- Desabilita o modo safe update
+-- Desabilita o modo safe update, que impede a execução do update e do delete sem where
 SET SQL_SAFE_UPDATES = 0;
 
 -- Atualiza o atributo preço na tabela, cujo id seja igual a 1
