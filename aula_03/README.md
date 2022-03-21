@@ -6,7 +6,7 @@ Modelagem de dados significa criar um Modelo que explique as características de
 
 Modelagem do Banco de dados é o processo de **levantamento, análise, categorização e exploração de todos os dados e tipos de informações** que irão sustentar uma aplicação. Esta é uma etapa primordial no  trabalho do desenvolvimento de sistemas, porque todo software é criado  com determinados objetivos, para atender às necessidades dos usuários  dentro deste cenário.
 
-<h2>Qual o objetivo da modelagem de dados ? Por que  modelar ?</h2>
+<h2>Qual o objetivo da modelagem de dados ? Por quê  modelar ?</h2>
 
 - Representar o ambiente observado
 - Documentar e normalizar
