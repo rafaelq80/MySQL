@@ -21,7 +21,7 @@ INSERT INTO tb_categorias (tipo) VALUES ("Simulação");
 INSERT INTO tb_categorias (tipo) VALUES ("Outros");
 
 -- Lista todas as Categorias
-Select * from tb_categorias;
+SELECT * FROM tb_categorias;
 
 -- Cria a tabela Usuários
 CREATE TABLE tb_usuarios (
@@ -35,16 +35,29 @@ CREATE TABLE tb_usuarios (
   );
 
 -- Insere dados na tabela Usuários
-insert into tb_usuarios(usuario, nome, senha, foto, data_nascimento) values ("admin@email.com.br", "Administrador", "123a456*78", "https://i.imgur.com/FETvs2O.jpg", "2001-11-22");
-insert into tb_usuarios(usuario, nome, senha, foto, data_nascimento) values ("mariana@email.com.br", "Mariana Maria da Silva", "123@456&78", "https://i.imgur.com/mB3VM2N.jpg", "2001-11-22");
-insert into tb_usuarios(usuario, nome, senha, foto, data_nascimento) values ("adriana@email.com.br", "Adriana Kaylany de Souza", "123l456t78", "https://i.imgur.com/5M2p5Wb.jpg", "2002-12-26");
-insert into tb_usuarios(usuario, nome, senha, foto, data_nascimento) values ("quico@email.com.br", "Frederico Santos", "123b456#78", "https://i.imgur.com/Sk5SjWE.jpg", "2003-12-26");
-insert into tb_usuarios(usuario, nome, senha, foto, data_nascimento) values ("florinda@email.com.br", "Florinda Mezza", "123!456?78", "https://i.imgur.com/NtyGneo.jpg", "2002-12-26");
-insert into tb_usuarios(usuario, nome, senha, foto, data_nascimento) values ("evelise@email.com.br", "Evelise Franco", "123f456v78", "https://i.imgur.com/EcJG8kB.jpg", "2001-12-26");
-insert into tb_usuarios(usuario, nome, senha, foto, data_nascimento) values ("julmiara@email.com.br", "Julmiara Correa", "123@!456g78", "https://i.imgur.com/T12NIp9.jpg", "2000-12-26");
+INSERT INTO tb_usuarios(usuario, nome, senha, foto, data_nascimento) 
+VALUES ("admin@email.com.br", "Administrador", "123a456*78", "https://i.imgur.com/FETvs2O.jpg", "2001-11-22");
+
+INSERT INTO tb_usuarios(usuario, nome, senha, foto, data_nascimento) 
+VALUES ("mariana@email.com.br", "Mariana Maria da Silva", "123@456&78", "https://i.imgur.com/mB3VM2N.jpg", "2001-11-22");
+
+INSERT INTO tb_usuarios(usuario, nome, senha, foto, data_nascimento) 
+VALUES ("adriana@email.com.br", "Adriana Kaylany de Souza", "123l456t78", "https://i.imgur.com/5M2p5Wb.jpg", "2002-12-26");
+
+INSERT INTO tb_usuarios(usuario, nome, senha, foto, data_nascimento) 
+VALUES ("quico@email.com.br", "Frederico Santos", "123b456#78", "https://i.imgur.com/Sk5SjWE.jpg", "2003-12-26");
+
+INSERT INTO tb_usuarios(usuario, nome, senha, foto, data_nascimento) 
+VALUES ("florinda@email.com.br", "Florinda Mezza", "123!456?78", "https://i.imgur.com/NtyGneo.jpg", "2002-12-26");
+
+INSERT INTO tb_usuarios(usuario, nome, senha, foto, data_nascimento) 
+VALUES ("evelise@email.com.br", "Evelise Franco", "123f456v78", "https://i.imgur.com/EcJG8kB.jpg", "2001-12-26");
+
+INSERT INTO tb_usuarios(usuario, nome, senha, foto, data_nascimento) 
+VALUES ("julmiara@email.com.br", "Julmiara Correa", "123@!456g78", "https://i.imgur.com/T12NIp9.jpg", "2000-12-26");
 
 -- Lista todos os Usuários
-Select * from tb_usuarios;
+SELECT * FROM tb_usuarios;
 
 -- Cria a tabela Produtos
 CREATE TABLE tb_produtos (
@@ -82,17 +95,17 @@ INSERT INTO tb_produtos (nome, descricao, console, quantidade, preco, foto)
 VALUES ("Flight Simulator", "O Flight Simulator promete aos jogadores a liberdade de criar seus próprios planos de vôo e decolar em qualquer lugar do mundo, voando dia e noite em condições climáticas realistas.", "XBOX", 15, 250.00, "https://i.imgur.com/cYl5vhh.jpg");
 
 -- Lista todos os Produtos
-Select * from tb_produtos;
+SELECT * FROM tb_produtos;
 
-select * from tb_produtos inner join tb_categorias
-on tb_categorias.id = tb_produtos.categoria_id;
+SELECT * FROM tb_produtos INNER JOIN tb_categorias
+ON tb_categorias.id = tb_produtos.categoria_id;
 
-select * from tb_produtos inner join tb_usuarios
-on tb_usuarios.id = tb_produtos.usuario_id;
+SELECT * FROM tb_produtos INNER JOIN tb_usuarios
+ON tb_usuarios.id = tb_produtos.usuario_id;
 
-select * from tb_produtos 
-inner join tb_categorias on tb_categorias.id = tb_produtos.categoria_id
-inner join tb_usuarios on tb_usuarios.id = tb_produtos.usuario_id;
+SELECT * FROM tb_produtos 
+INNER JOIN tb_categorias ON tb_categorias.id = tb_produtos.categoria_id
+INNER JOIN tb_usuarios ON tb_usuarios.id = tb_produtos.usuario_id;
 
 
 
