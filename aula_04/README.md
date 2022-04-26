@@ -34,7 +34,7 @@ Na figura abaixo, temos um exemplo de Diagrama DER com Relacionamento:
 
 Vamos Criar o Diagrama Entidade Relacionamento de uma Loja de Games, seguindo o modelo abaixo, no MySQL Workbench:
 
-<div align="center"><img src="https://i.imgur.com/drAm4Ga.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/YTGdIzP.png" title="source: imgur.com" /></div>
 
 
 
@@ -166,17 +166,17 @@ Antes de começar a criar o DER, vamos configurar alguns itens do Workbench.
 
 
 
-1. Vamos Criar o primeiro relacionamento (**categoria_id 🡪 id**). Este relacionamento será do tipo um para muitos (1:N). Clique no botão <img src="https://i.imgur.com/Or0HEas.png" title="source: imgur.com" /> (**Place new 1:N Relationship Indentify**). Clique sobre a tabela **tb_produtos** e depois clique sobre a tabela **tb_categorias**.
+1. Vamos Criar o primeiro relacionamento (**categoria_id 🡪 id**). Este relacionamento será do tipo um para muitos (1:N). Clique no botão <img src="https://i.imgur.com/MB27W6Z.png" title="source: imgur.com" /> (**Place new 1:N Relationship Indentify**). Clique sobre a tabela **tb_produtos** e depois clique sobre a tabela **tb_categorias**.
 
-<div align="center"><img src="https://i.imgur.com/EgAbsgD.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/YSMtb1W.png" title="source: imgur.com" /></div>
 
 2. A Chave Estrangeira e o Relacionamento foram criados automaticamente. Observe apenas que o nome do atributo Chave estrangeira está um pouco diferente. Dê um duplo clique sobre a Tabela tb_produtos e altere o nome do atributo **Chave Estrangeira** para **categoria_id** e desmarque a opção **PK e NN**, como mostra a figura abaixo:
 
 <div align="center"><img src="https://i.imgur.com/65ckWjw.png" title="source: imgur.com" /></div>
 
-3. Vamos Criar o segundo relacionamento (**usuario_id 🡪 id**). Este relacionamento será do tipo um para muitos (1:N). Clique no botão <img src="https://i.imgur.com/Or0HEas.png" title="source: imgur.com" /> (**Place new 1:N Relationship Indentify**). Clique sobre a tabela **tb_produtos** e depois clique sobre a tabela **tb_usuarios**.
+3. Vamos Criar o segundo relacionamento (**usuario_id 🡪 id**). Este relacionamento será do tipo um para muitos (1:N). Clique no botão <img src="https://i.imgur.com/MB27W6Z.png" title="source: imgur.com" /> (**Place new 1:N Relationship Indentify**). Clique sobre a tabela **tb_produtos** e depois clique sobre a tabela **tb_usuarios**.
 
-<div align="center"><img src="https://i.imgur.com/IhidWRc.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/BvzH7Ef.png" title="source: imgur.com" /></div>
 
 4. A Chave Estrangeira e o Relacionamento foram criados automaticamente. Observe apenas que o nome do atributo Chave estrangeira está um pouco diferente. Dê um duplo clique sobre a Tabela tb_produtos e altere o nome do atributo **Chave Estrangeira** para **usuario_id** e desmarque a opção **PK e NN**, como mostra a figura abaixo:
 
@@ -184,7 +184,7 @@ Antes de começar a criar o DER, vamos configurar alguns itens do Workbench.
 
 5. Na figura abaixo você confere o resultado final. Observe que as linhas do Relacionamento estão pontilhadas, o que indica que o atributo chave estrangeira pode ser nulo. 
 
-<div align="center"><img src="https://i.imgur.com/apjYdON.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/YTGdIzP.png" title="source: imgur.com" /></div>
 
 6. Para finalizar, Salve o Modelo. No menu **File**, clique na opção **Save Model** 
 
