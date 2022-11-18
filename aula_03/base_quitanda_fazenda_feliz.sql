@@ -1,5 +1,5 @@
 -- Apagar Banco de Dados db_quitanda
--- DROP DATABASE db_quitanda;
+DROP DATABASE db_quitanda;
 
 -- Recriar o Banco de dados db_quitanda
 CREATE DATABASE db_quitanda;
