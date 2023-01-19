@@ -174,15 +174,15 @@ Observe que os dados cadastrados na coluna **Categoria_id** da Tabela Categorias
 
 A partir deste ponto, podemos criar o nosso **Modelo Conceitual**. Temos 2 Entidades definidas: **CATEGORIA** e **PRODUTO**, que estão relacionadas entre si, de modo que 1 Categoria classifica N Produtos, conforme representado no Diagrama abaixo:
 
-<div align="center"><img src="https://i.imgur.com/Bkm0kDv.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/WYHFO0X.png" title="source: imgur.com" /></div>
 
 A partir do Modelo Conceitual, podemos criar o nosso **Modelo Lógico**, onde os **Atributos** de cada entidade são definidos:
 
-<div align="center"><img src="https://i.imgur.com/7iDMH62.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/g67MO6u.png" title="source: imgur.com" width="80%"/></div>
 
 A partir do Modelo Lógico, podemos criar o **Modelo Físico**, onde as **Entidades se transformam em Tabelas** e os **Atributos recebem o Tipo de dado** mais adequado de acordo com o **SGBD** escolhido. Em nosso exemplo o **MySQL**:
 
-<div align="center"><img src="https://i.imgur.com/0jXMp4N.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/xDqZ0wL.png" title="source: imgur.com" /></div>
 
 A partir do Modelo Físico é possível criar o **Dicionário de Dados** das nossas tabelas.
 
