@@ -72,15 +72,20 @@ SELECT min(preco) AS preco_minimo FROM tb_produtos;
 -- Inner Join
 SELECT nome, preco, quantidade, tb_categorias.descricao AS descricao_da_categoria
 FROM tb_produtos INNER JOIN tb_categorias 
-ON tb_categorias.id = tb_produtos.categoria_id;
+ON tb_produtos.categoria_id = tb_categorias.id;
 
 -- Left Join
 SELECT nome, preco, quantidade, tb_categorias.descricao AS descricao_da_categoria
 FROM tb_produtos LEFT JOIN tb_categorias 
-ON tb_categorias.id = tb_produtos.categoria_id;
+ON tb_produtos.categoria_id = tb_categorias.id;
 
 -- Right Join
 SELECT nome, preco, quantidade, tb_categorias.descricao AS descricao_da_categoria
 FROM tb_produtos RIGHT JOIN tb_categorias 
-ON tb_categorias.id = tb_produtos.categoria_id;
+ON tb_produtos.categoria_id = tb_categorias.id;
 
+-- Group By - Agrupa os valores a partir de um atributo
+SELECT tb_categorias.descricao, avg(preco) AS Preço_Médio
+FROM tb_produtos INNER JOIN  tb_categorias
+ON tb_produtos.categoria_id = tb_categorias.id
+GROUP BY tb_categorias.descricao;
