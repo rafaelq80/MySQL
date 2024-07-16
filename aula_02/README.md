@@ -91,13 +91,13 @@ Para Salvar o Script SQL, siga as instruções abaixo:
 
 1. Clique no botão <img src="https://i.imgur.com/tBxeU64.png" title="source: imgur.com" /> (Salvar).
 
-   <div align="center"><img src="https://i.imgur.com/pv9Z8yL.png?1" title="source: imgur.com" width="550px"/></div>
+   <div align="center"><img src="https://i.imgur.com/BMwqy0o.png" title="source: imgur.com" /></div>
 
 2. Será aberta a janela **Save SQL Script**
 
 3. Localize a pasta **aula_02** dentro da pasta **bd_mysql** na sua **Área de Trabalho**. No campo **Nome** informe o nome do arquivo e clique no botão **Salvar** para concluir o processo.
 
-   <div align="center"><img src="https://i.imgur.com/CSpKCCF.png" title="source: imgur.com" /></div>
+  <div align="center"><img src="https://i.imgur.com/xw7QKzX.png" title="source: imgur.com" /></div>
 
 
 
@@ -118,7 +118,7 @@ git status
 ```bash
  git add .
  
- git commit -m “Projeto Hello World”
+ git commit -m “Aula_02 - MySQL”
  
  git push -u origin main
 ```
@@ -143,4 +143,3 @@ Toda vez que você precisar enviar conteúdos para este repositório, salve todo
  
  git push
 ```
-
