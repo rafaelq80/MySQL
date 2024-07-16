@@ -42,7 +42,6 @@ Vamos criar o repositório local na  **Área de Trabalho do Windows**, que será
 4. No **Git Bash**, execute a sequência de comandos abaixo para conectar com o repositório remoto.
 ```bash
 git init
-git branch -M master main
 git remote add origin https://github.com/rafaelq80/bd_mysql.git
 git pull origin main
 git remote -v
@@ -55,10 +54,6 @@ git remote -v
 	<tr>
         <td><i>git init</i></td>
         <td>Inicializa um repositório git local dentro da pasta bd_mysql.</td>
-	</tr>
-	<tr>
-        <td><i>git branch -M master main</i></td>
-		<td>Renomeia a branch local master para main.</td>
 	</tr>
 	<tr>
         <td><i> git remote add origin endereço_remoto</i></td>
