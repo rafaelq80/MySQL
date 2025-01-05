@@ -40,9 +40,12 @@ SELECT * FROM tb_produtos;
 SELECT nome, preco FROM tb_produtos;
 
 -- Visualizar somente o nome e o preço formatado para Reais
+-- CONCAT: https://www.w3schools.com/sql/func_mysql_concat.asp
+-- FORMAT: https://www.w3schools.com/sql/func_mysql_format.asp
 SELECT nome, CONCAT('R$ ', FORMAT(preco, 2, 'pt_BR')) AS preço FROM tb_produtos;
 
 -- Visualizar somente o nome e a data de validade formatada no padrão pt BR (00/00/0000)
+-- DATE_FORMAT: https://www.w3schools.com/sql/func_mysql_date_format.asp
 SELECT nome, DATE_FORMAT(data_validade, '%d/%m/%Y') AS Data_Validade FROM tb_produtos;
 
 -- Visualizar o produto cujo id é igual a 1
@@ -84,6 +87,9 @@ UPDATE tb_produtos SET preco = 10.00 WHERE id = 1;
 DELETE FROM tb_produtos WHERE id = 2;
 
 /* Bônus */ 
+
+-- Visualizar a estrutura da tabela
+DESC tb_produtos;
 
 -- Esqueceu de definir a chave primária da tabela
 ALTER TABLE tb_produtos ADD PRIMARY KEY (id);
