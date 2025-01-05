@@ -43,7 +43,7 @@ SELECT nome, preco FROM tb_produtos;
 SELECT nome, CONCAT('R$ ', FORMAT(preco, 2, 'pt_BR')) AS preço FROM tb_produtos;
 
 -- Visualizar somente o nome e a data de validade formatada no padrão pt BR (00/00/0000)
-SELECT nome_produto, DATE_FORMAT(data_validade, '%d/%m/%Y') AS Data_Validade FROM tb_produtos;
+SELECT nome, DATE_FORMAT(data_validade, '%d/%m/%Y') AS Data_Validade FROM tb_produtos;
 
 -- Visualizar o produto cujo id é igual a 1
 SELECT * FROM tb_produtos WHERE id = 1;
