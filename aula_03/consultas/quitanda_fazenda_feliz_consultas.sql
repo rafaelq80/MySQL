@@ -44,7 +44,7 @@ SELECT * FROM tb_produtos WHERE nome Like "%ra";
 -- Localiza os produtos cujo nome inicie com ha
 SELECT * FROM tb_produtos WHERE nome Like "ra%";
 
-/* Operadores Matemáticos */ 
+/* Operadores Matemáticos - Agregação */ 
 
 -- Conte o total de produtos (Exceto os Nulos)
 SELECT COUNT(*) FROM tb_produtos;
@@ -84,8 +84,25 @@ SELECT nome, preco, quantidade, tb_categorias.descricao AS descricao_da_categori
 FROM tb_produtos RIGHT JOIN tb_categorias 
 ON tb_produtos.categoria_id = tb_categorias.id;
 
+-- Inner Join com uma condição e ordenação de dados
+SELECT * FROM tb_produtos INNER JOIN tb_categorias
+ON tb_produtos.categoria_id = tb_categorias.id
+WHERE tb_produtos.categoria_id = 2
+ORDER BY tb_categorias.descricao;
+
 -- Group By - Agrupa os valores a partir de um atributo
 SELECT tb_categorias.descricao, avg(preco) AS Preço_Médio
 FROM tb_produtos INNER JOIN  tb_categorias
 ON tb_produtos.categoria_id = tb_categorias.id
 GROUP BY tb_categorias.descricao;
+
+-- Group By + Having - Agrupa os valores a partir de um atributo e filtra de acordo com a condição
+-- a cláusula HAVING é usada para filtrar os resultados de uma consulta após a aplicação da função 
+-- de agregação (SUM, COUNT, AVG, etc.). 
+-- Isso é diferente da cláusula WHERE, que filtra as linhas antes da agregação.
+-- https://www.w3schools.com/sql/sql_having.asp
+SELECT tb_categorias.descricao, avg(preco) as preco_medio
+FROM tb_produtos INNER JOIN tb_categorias
+ON tb_produtos.categoria_id = tb_categorias.id
+GROUP BY tb_categorias.descricao
+HAVING preco_medio > 5;
